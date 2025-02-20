@@ -1,4 +1,4 @@
-# Unoffical Vidsrc API! 👋
+# Unoffical vidsrc (embed.su) API! 👋
 ## Sponsorship / Donations
 
 Your sponsorship is vital in helping me achieve this mission. With your support, I can:
@@ -44,18 +44,17 @@ TVSHOWS :
 The providers are currently :
 
 ```
-vidsrc
-asiaheroku
+embedsu
 ```
 
 ## Example Movie
 ```
-https://your-domain/vidsrc/916224
+https://your-domain/embedsu/916224
 ```
 
 ## Example Show
 ```
-https://your-domain/asiaheroku/1429?s=1&e=1
+https://your-domain/embedsu/1429?s=1&e=1
 ```
 
 ## Deployment
@@ -67,6 +66,4 @@ You can self host by doing the following :
 3. `npm install`
 4. `npm run main`
 
-or you can deploy to vercel using the button below:
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FInside4ndroid%2Fvidsrc-api-js)
+"This no longer works on vercel due to the source blocking vercel requests but will work on your own server self hosted."
